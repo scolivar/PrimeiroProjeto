@@ -18,24 +18,23 @@ body {font-family: "Lato", sans-serif}
     <a class="w3-bar-item w3-button w3-padding-large w3-hide-medium w3-hide-large w3-right" href="javascript:void(0)" onclick="myFunction()" title="Toggle Navigation Menu"><i class="fa fa-bars"></i></a>
     <a href="#" class="w3-bar-item w3-button w3-padding-large">INÍCIO</a>
     <a href="#band" class="w3-bar-item w3-button w3-padding-large w3-hide-small">O PROFISSIONAL</a>
-    <a href="#tour" class="w3-bar-item w3-button w3-padding-large w3-hide-small">TOUR</a>
+    <a href="#locais" class="w3-bar-item w3-button w3-padding-large w3-hide-small">LOCAIS</a>
     <a href="#contact" class="w3-bar-item w3-button w3-padding-large w3-hide-small">CONTATO</a>
     <div class="w3-dropdown-hover w3-hide-small">
       <button class="w3-padding-large w3-button" title="More">MAIS<i class="fa fa-caret-down"></i></button>     
       <div class="w3-dropdown-content w3-bar-block w3-card-4">
-        <a href="#" class="w3-bar-item w3-button">Merchandise</a>
-        <a href="#" class="w3-bar-item w3-button">Extras</a>
-        <a href="#" class="w3-bar-item w3-button">Media</a>
+        <a href="http://www.vagasti.com" class="w3-bar-item w3-button">Vagas no Brasil</a>
+        <a href="http://www.brazilaustralia.com/sites-emprego-para-quem-quer-trabalhar-australia/" class="w3-bar-item w3-button">Vagas na Austrália</a>
+        <a href="http://carreiradeti.com.br/10-portais-empregos-canada-profissionais-ti/" class="w3-bar-item w3-button">Vagas no Canadá</a>
       </div>
     </div>
-    <a href="javascript:void(0)" class="w3-padding-large w3-hover-red w3-hide-small w3-right"><i class="fa fa-search"></i></a>
   </div>
 </div>
 
 <!-- Navbar on small screens -->
 <div id="navDemo" class="w3-bar-block w3-black w3-hide w3-hide-large w3-hide-medium w3-top" style="margin-top:46px">
   <a href="#band" class="w3-bar-item w3-button w3-padding-large">O PROFISSIONAL</a>
-  <a href="#tour" class="w3-bar-item w3-button w3-padding-large">TOUR</a>
+  <a href="#locais" class="w3-bar-item w3-button w3-padding-large">LOCAIS</a>
   <a href="#contact" class="w3-bar-item w3-button w3-padding-large">CONTATO</a>
   <a href="#" class="w3-bar-item w3-button w3-padding-large">MERCH</a>
 </div>
@@ -100,16 +99,16 @@ body {font-family: "Lato", sans-serif}
     </div>
   </div>
 
-  <!-- The Tour Section -->
-  <div class="w3-black" id="tour">
+  <!-- The Locais Section -->
+  <div class="w3-black" id="locais">
     <div class="w3-container w3-content w3-padding-64" style="max-width:800px">
       <h2 class="w3-wide w3-center">LOCAIS</h2>
       <p class="w3-opacity w3-center"><i>Locais onde tem interesse em trabalhar:</i></p><br>
 
       <ul class="w3-ul w3-border w3-white w3-text-grey">
-        <li class="w3-padding">September <span class="w3-tag w3-red w3-margin-left">Sold out</span></li>
-        <li class="w3-padding">October <span class="w3-tag w3-red w3-margin-left">Sold out</span></li>
-        <li class="w3-padding">November <span class="w3-badge w3-right w3-margin-right">3</span></li>
+        <li class="w3-padding">Brasil <span class="w3-tag w3-white w3-margin-left">Por já estar aqui e dominar o idioma.</span></li>
+        <li class="w3-padding">Austrália<span class="w3-tag w3-white w3-margin-left">País com grandes perspectivas na área e é um local onde eu gostaria de viver</span></li>
+        <li class="w3-padding">Canadá<span class="w3-tag w3-white w3-margin-left">Também com grandes perspectivas</span></li>
       </ul>
 
       <div class="w3-row-padding w3-padding-32" style="margin:0 -16px">
@@ -117,48 +116,73 @@ body {font-family: "Lato", sans-serif}
           <img src="w3images/brasil.jpg" alt="Brasil-JuizdeFora" style="width:100%" class="w3-hover-opacity">
           <div class="w3-container w3-white">
             <p><b>Brasil</b></p>
-            <p class="w3-opacity">Fri 27 Nov 2016</p>
-            <p>Praesent tincidunt sed tellus ut rutrum sed vitae justo.</p>
-            <button class="w3-button w3-black w3-margin-bottom" onclick="document.getElementById('ticketModal').style.display='block'">Buy Tickets</button>
+            <p>Clique e assista a um pequeno vídeo sobre o emprego na área de informática no Brasil.</p>
+            <button class="w3-button w3-black w3-margin-bottom" onclick="document.getElementById('videoBrasil').style.display='block'">TI Brasil</button>
           </div>
         </div>
         <div class="w3-third w3-margin-bottom">
           <img src="w3images/australia.jpg" alt="Austrália" style="width:100%" class="w3-hover-opacity">
           <div class="w3-container w3-white">
             <p><b>Austrália</b></p>
-            <p class="w3-opacity">Sat 28 Nov 2016</p>
-            <p>Praesent tincidunt sed tellus ut rutrum sed vitae justo.</p>
-            <button class="w3-button w3-black w3-margin-bottom" onclick="document.getElementById('ticketModal').style.display='block'">Buy Tickets</button>
+            <p>Veja neste vídeo como é o Mercado de Tecnologia da Informação na Austrália.</p>
+            <button class="w3-button w3-black w3-margin-bottom" onclick="document.getElementById('videoAustralia').style.display='block'">TI Austrália</button>
           </div>
         </div>
         <div class="w3-third w3-margin-bottom">
           <img src="w3images/canada.jpg" alt="Canadá-Vancover" style="width:100%" class="w3-hover-opacity">
           <div class="w3-container w3-white">
             <p><b>Canadá</b></p>
-            <p class="w3-opacity">Sun 29 Nov 2016</p>
-            <p>Praesent tincidunt sed tellus ut rutrum sed vitae justo.</p>
-            <button class="w3-button w3-black w3-margin-bottom" onclick="document.getElementById('ticketModal').style.display='block'">Buy Tickets</button>
+            <p>Clique e assista a um pequeno vídeo sobre o emprego na área de informática no Canadá.</p>
+            <button class="w3-button w3-black w3-margin-bottom" onclick="document.getElementById('videoCanada').style.display='block'">TI Canadá</button>
           </div>
         </div>
       </div>
     </div>
   </div>
 
-  <!-- Ticket Modal -->
-  <div id="ticketModal" class="w3-modal">
+  <!-- Vídeo Brasil -->
+  <div id="videoBrasil" class="w3-modal">
     <div class="w3-modal-content w3-animate-top w3-card-4">
       <header class="w3-container w3-teal w3-center w3-padding-32"> 
-        <span onclick="document.getElementById('ticketModal').style.display='none'" 
+        <span onclick="document.getElementById('videoBrasil').style.display='none'" 
        class="w3-button w3-teal w3-xlarge w3-display-topright">×</span>
-        <h2 class="w3-wide"><i class="fa fa-suitcase w3-margin-right"></i>Tickets</h2>
+        <h2 class="w3-wide"><i class="fa fa-suitcase w3-margin-right"></i>Vídeo TI NO BRASIL</h2>
       </header>
       <div class="w3-container">
-        <p><label><i class="fa fa-shopping-cart"></i> Tickets, $15 per person</label></p>
-        <input class="w3-input w3-border" type="text" placeholder="How many?">
-        <p><label><i class="fa fa-user"></i> Send To</label></p>
-        <input class="w3-input w3-border" type="text" placeholder="Enter email">
-        <button class="w3-button w3-block w3-teal w3-padding-16 w3-section w3-right">PAY <i class="fa fa-check"></i></button>
-        <button class="w3-button w3-red w3-section" onclick="document.getElementById('ticketModal').style.display='none'">Close <i class="fa fa-remove"></i></button>
+        <br><center><iframe width="560" height="315" src="https://www.youtube.com/embed/B7Uf5A5drng" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe></center><br>
+        <button class="w3-button w3-red w3-section" onclick="document.getElementById('videoBrasil').style.display='none'">Close <i class="fa fa-remove"></i></button>
+        <p class="w3-right">Need <a href="#" class="w3-text-blue">help?</a></p>
+      </div>
+    </div>
+  </div>
+
+  <!-- Vídeo Austrália -->
+  <div id="videoAustralia" class="w3-modal">
+    <div class="w3-modal-content w3-animate-top w3-card-4">
+      <header class="w3-container w3-teal w3-center w3-padding-32"> 
+        <span onclick="document.getElementById('videoAustralia').style.display='none'" 
+       class="w3-button w3-teal w3-xlarge w3-display-topright">×</span>
+        <h2 class="w3-wide"><i class="fa fa-suitcase w3-margin-right"></i>Vídeo TI NO BRASIL</h2>
+      </header>
+      <div class="w3-container">
+        <br><center><iframe width="560" height="315" src="https://www.youtube.com/embed/zvklP1Dbqao" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe></center><br>
+        <button class="w3-button w3-red w3-section" onclick="document.getElementById('videoAustralia').style.display='none'">Close <i class="fa fa-remove"></i></button>
+        <p class="w3-right">Need <a href="#" class="w3-text-blue">help?</a></p>
+      </div>
+    </div>
+  </div>
+
+<!-- Vídeo Canadá -->
+  <div id="videoCanada" class="w3-modal">
+    <div class="w3-modal-content w3-animate-top w3-card-4">
+      <header class="w3-container w3-teal w3-center w3-padding-32"> 
+        <span onclick="document.getElementById('videoCanada').style.display='none'" 
+       class="w3-button w3-teal w3-xlarge w3-display-topright">×</span>
+        <h2 class="w3-wide"><i class="fa fa-suitcase w3-margin-right"></i>Vídeo TI NO CANADÁ</h2>
+      </header>
+      <div class="w3-container">
+        <br><center><iframe width="560" height="315" src="https://www.youtube.com/embed/KWpNi39UTYQ" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe></center><br>
+        <button class="w3-button w3-red w3-section" onclick="document.getElementById('videoCanada').style.display='none'">Close <i class="fa fa-remove"></i></button>
         <p class="w3-right">Need <a href="#" class="w3-text-blue">help?</a></p>
       </div>
     </div>
@@ -167,7 +191,7 @@ body {font-family: "Lato", sans-serif}
   <!-- The Contact Section -->
   <div class="w3-container w3-content w3-padding-64" style="max-width:800px" id="contact">
     <h2 class="w3-wide w3-center">CONTATO</h2>
-    <p class="w3-opacity w3-center"><i>Mande-nos uma mensagem!</i></p>
+    <p class="w3-opacity w3-center"><i>Mande-nos uma mensagem com uma proposta de emprego!</i></p>
     <div class="w3-row w3-padding-32">
       <div class="w3-col m6 w3-large w3-margin-bottom">
         <i class="fa fa-map-marker" style="width:30px"></i> Juiz de Fora/MG<br>
